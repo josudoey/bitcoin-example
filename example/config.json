@@ -1,0 +1,7 @@
+{
+  "protocol": "http",
+  "user": "bitcoin",
+  "pass": "local321",
+  "host": "localhost",
+  "port": "8332"
+}

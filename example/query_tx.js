@@ -6,13 +6,7 @@ var Promise = require("bluebird");
 var bitcore = require('bitcore');
 var RpcClient = require('bitcoind-rpc');
 
-var config = {
-  protocol: 'http',
-  user: 'bitcoin',
-  pass: 'local321',
-  host: 'localhost',
-  port: '8332'
-};
+var config = require("./config");
 
 var rpc = new RpcClient(config);
 var rpc = Promise.promisifyAll(rpc);

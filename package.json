@@ -1,0 +1,21 @@
+{
+  "name": "bitcoin-example",
+  "version": "1.0.0",
+  "description": "bitcoin example code",
+  "scripts": {},
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoind-rpc": "^0.6.0",
+    "bitcore": "^4.1.0",
+    "bluebird": "^3.4.6",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.4.3"
+  }
+}
